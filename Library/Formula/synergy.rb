@@ -6,8 +6,6 @@ class Synergy <Formula
   md5 '19f8b396161a5bad982e6b7a06459a37'
   version '1.3.1'
 
-# depends_on 'cmake'
-
   def install
     bin.install 'synergyc'
     bin.install 'synergys'
